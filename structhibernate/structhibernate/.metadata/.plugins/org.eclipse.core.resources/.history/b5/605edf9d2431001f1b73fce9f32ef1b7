@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/showadduser.do" location="50,50" dimension="115,66" />
+  <StrutsActivity path="/WEB-INF/pages/adduser.jsp" />
+  <StrutsTransition id="/showadduser.do,sucess,/WEB-INF/pages/adduser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="107,83" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

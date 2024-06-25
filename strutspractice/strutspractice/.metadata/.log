@@ -1,0 +1,516 @@
+!SESSION 2024-05-19 12:20:44.320 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.genuitec.eclipse.core 1 0 2024-05-19 12:21:44.131
+!MESSAGE Unable to locate .myeclipse-blue.properties file
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2024-05-19 12:21:44.334
+!MESSAGE Installed snippet library: C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.4.100.zmyeclipse64100200805\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2024-05-19 12:21:44.382
+!MESSAGE Installed snippet library: C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.4.100.zmyeclipse64100200805\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2024-05-19 12:21:44.425
+!MESSAGE Installed snippet library: C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.4.100.zmyeclipse64100200805\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2024-05-19 12:21:44.461
+!MESSAGE Installed snippet library: C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.4.100.zmyeclipse64100200805\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2024-05-19 12:21:44.501
+!MESSAGE Installed snippet library: C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.4.100.zmyeclipse64100200805\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2024-05-19 12:21:44.544
+!MESSAGE Installed snippet library: C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.4.100.zmyeclipse64100200805\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2024-05-19 12:21:44.582
+!MESSAGE Installed snippet library: C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.4.100.zmyeclipse64100200805\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2024-05-19 12:21:44.611
+!MESSAGE Installed snippet library: C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.4.100.zmyeclipse64100200805\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2024-05-19 12:21:44.655
+!MESSAGE Installed snippet library: C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.4.100.zmyeclipse64100200805\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2024-05-19 12:21:44.687
+!MESSAGE Installed snippet library: C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.4.100.zmyeclipse64100200805\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2024-05-19 12:21:44.721
+!MESSAGE Installed snippet library: C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.4.100.zmyeclipse64100200805\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.wst.internet.cache 1 0 2024-05-19 12:27:24.766
+!MESSAGE wtp.autotest.noninteractive is set. Licenses dialogs will not be displayed.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2024-05-19 12:46:53.309
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Unknown javadoc format for Action [in Action.class [in org.apache.struts.action [in C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.cross.easystruts.eclipse_6.4.100.zmyeclipse64100200805\data\1.3\lib\struts-core-1.3.8.jar]]]]
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:975)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getHTMLContentReader(ProposalInfo.java:112)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:99)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:521)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:102)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2024-05-19 12:46:53.309
+!MESSAGE Unknown javadoc format for Action [in Action.class [in org.apache.struts.action [in C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.cross.easystruts.eclipse_6.4.100.zmyeclipse64100200805\data\1.3\lib\struts-core-1.3.8.jar]]]
+
+!ENTRY org.eclipse.jdt.core 4 1009 2024-05-19 13:05:16.394
+!MESSAGE Unknown javadoc format for ActionMapping {key=Lorg/apache/struts/action/ActionMapping;} [in ActionMapping.class [in org.apache.struts.action [in C:\Users\acer\AppData\Roaming\MyEclipse 6.5M1 Blue\myeclipse\eclipse\plugins\com.genuitec.eclipse.cross.easystruts.eclipse_6.4.100.zmyeclipse64100200805\data\1.3\lib\struts-core-1.3.8.jar]]]
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:11:09.528
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:11:14.323
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:12:51.529
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:12:52.280
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:12:52.581
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:12:56.488
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:12:57.089
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:12:59.635
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:12:59.920
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:13:01.423
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:13:01.909
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:13:02.184
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:13:03.090
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:13:03.829
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:13:09.823
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:13:10.430
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:13:11.655
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:13:12.108
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:13:12.677
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:14:40.430
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:14:40.884
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:14:41.192
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:14:41.482
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:14:41.774
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:14:42.078
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:14:42.593
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:14:43.728
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:14:54.227
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:14:54.676
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:15:00.230
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:15:00.975
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:15:01.732
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:15:11.030
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:15:11.788
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:15:12.674
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:15:12.985
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:15:13.726
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:15:14.239
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:15:14.621
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:17:10.578
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:17:11.630
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:17:11.936
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:17:12.689
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:19.430
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:20.343
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:41.328
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:41.640
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:43.131
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:43.429
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:45.859
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:46.730
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:47.925
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:48.223
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:49.874
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:51.525
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:52.048
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:53.487
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:18:57.388
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:19:10.728
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:19:26.021
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:19:37.148
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:19:57.078
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:20:04.882
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:20:36.531
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:20:38.020
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:20:44.192
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:21:13.438
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:22:14.624
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:22:19.433
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:23:46.424
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:23:47.337
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:23:48.375
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:23:48.834
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:23:49.545
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:23:50.638
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:24:33.094
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:24:33.681
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:24:34.581
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:24:35.029
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:24:35.635
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:24:36.241
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 4 0 2024-05-19 13:24:37.182
+!MESSAGE DOM error: Could not find design node for th
+!STACK 0
+com.genuitec.eclipse.webdesigner3.DOMException: DOM error: Could not find design node for th
+	at com.genuitec.eclipse.webdesigner3.DOMCoordinator.syncDesignForSourceStructureModification(DOMCoordinator.java:1638)
+	at com.genuitec.eclipse.webdesigner3.WebDesigner3.handleSourceNodeStructuredChanged(WebDesigner3.java:327)
+	at com.genuitec.eclipse.webdesigner3.src.SourceEditSystem.sourceEditorNodeStructureChanged(SourceEditSystem.java:316)
+	at com.genuitec.eclipse.webdesigner3.src.SourceNodeAdapter.elementChanged(SourceNodeAdapter.java:96)
+	at com.genuitec.eclipse.webdesigner3.src.SourceNodeAdapter.notifyChanged(SourceNodeAdapter.java:41)
+	at org.eclipse.wst.sse.core.internal.provisional.AbstractNotifier.notify(AbstractNotifier.java:201)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelNotifierImpl.notifyStructureChanged(XMLModelNotifierImpl.java:392)
+	at org.eclipse.wst.xml.core.internal.document.XMLModelNotifierImpl.endChanging(XMLModelNotifierImpl.java:180)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.changedModel(DOMModelImpl.java:163)
+	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel$DocumentToModelNotifier.regionsReplaced(AbstractStructuredModel.java:176)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:574)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.fireStructuredDocumentEvent(BasicStructuredDocument.java:1193)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.internalReplaceText(BasicStructuredDocument.java:1960)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2395)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.access$0(JobSafeStructuredDocument.java:1)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument$1.run(JobSafeStructuredDocument.java:98)
+	at org.eclipse.wst.sse.ui.EditorExecutionContext.execute(EditorExecutionContext.java:42)
+	at org.eclipse.wst.sse.core.internal.text.JobSafeStructuredDocument.replaceText(JobSafeStructuredDocument.java:109)
+	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument.replaceText(BasicStructuredDocument.java:2391)
+	at org.eclipse.wst.sse.ui.internal.StructuredDocumentToTextAdapter.replaceTextRange(StructuredDocumentToTextAdapter.java:1187)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:5757)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:6500)
+	at org.eclipse.swt.custom.StyledText.doContent(StyledText.java:2155)
+	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:5029)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5054)
+	at org.eclipse.swt.custom.StyledText$7.handleEvent(StyledText.java:4800)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:962)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:947)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:975)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:971)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1285)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:3772)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3672)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:291)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4351)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2265)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3291)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:25:19.892
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:25:21.126
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:25:24.837
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:25:53.784
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:25:55.585
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:25:55.883
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:25:56.777
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:25:57.255
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:25:57.685
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:03.985
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:04.588
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:05.479
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:06.089
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:06.680
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:07.285
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:07.601
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:08.033
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:08.480
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:09.222
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:09.682
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:10.436
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:11.173
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:13.733
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:14.346
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:15.082
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:18.974
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:26:19.286
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:28:21.836
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:28:26.026
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:28:32.930
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:28:35.633
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:28:51.076
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:29:09.075
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:29:09.988
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:29:10.003
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:31:56.630
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:31:56.671
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:31:56.685
+!MESSAGE Ignoring modified text node with null parent.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:33:54.375
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:33:57.080
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:33:58.135
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:34:01.286
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:34:03.086
+!MESSAGE Unable to synchronize source selection.
+
+!ENTRY com.genuitec.eclipse.webdesigner3 1 0 2024-05-19 13:34:46.422
+!MESSAGE Unable to synchronize source selection.
+!SESSION 2024-05-25 10:41:34.019 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.wst.internet.cache 1 0 2024-05-25 10:45:19.013
+!MESSAGE wtp.autotest.noninteractive is set. Licenses dialogs will not be displayed.
+
+!ENTRY com.genuitec.eclipse.core 1 0 2024-05-25 10:45:31.413
+!MESSAGE Unable to locate .myeclipse-blue.properties file

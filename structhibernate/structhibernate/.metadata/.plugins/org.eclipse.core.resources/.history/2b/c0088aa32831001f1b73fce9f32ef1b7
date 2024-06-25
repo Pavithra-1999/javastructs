@@ -1,0 +1,17 @@
+<%@taglib prefix="html" uri="http://struts.apache.org/tags-html"%>
+<html:html>
+<head>
+	<title>AddUser</title>
+</head>
+<body>
+	<html:form method="post" action="/adduser">
+		<table>
+			<tr>
+				<th>
+					First Name
+				</th>
+			</tr>
+			<table/>
+	</html:form>
+</body>
+</html:html>

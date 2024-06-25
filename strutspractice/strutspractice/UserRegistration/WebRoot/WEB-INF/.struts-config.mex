@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/showReg.do" location="50,50" dimension="262,96" />
+  <StrutsActivity path="/WEBINF/registration.jsp" />
+  <StrutsTransition id="/showReg.do,success,/WEBINF/registration.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="181,98" />
+      <AbsolutePoint location="0,0" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="structhibernatepractice"
+  id="myeclipse.1719055061091"
+  context-root="/structhibernatepractice"
+  j2ee-spec="5.0"
+  archive="structhibernatepractice.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

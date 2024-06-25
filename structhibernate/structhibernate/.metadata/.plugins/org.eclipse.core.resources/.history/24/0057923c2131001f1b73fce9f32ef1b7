@@ -1,0 +1,13 @@
+package com.akhm.service.imp;
+
+import com.akhm.service.UserService;
+import com.akhm.service.dto.UserDTO;
+
+public class UserServiceImpl implements UserService{
+
+	public Integer saveuser(UserDTO userDTO) {
+		
+		return null;
+	}
+
+}

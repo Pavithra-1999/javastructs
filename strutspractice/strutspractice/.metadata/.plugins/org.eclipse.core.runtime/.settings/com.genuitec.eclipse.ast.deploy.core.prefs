@@ -1,0 +1,13 @@
+#Sun May 19 21:49:25 IST 2024
+myeclipseTomcatServer.UserRegistration.altContextRoot=/UserRegistration
+myeclipseTomcatServer.UserRegistration.deploymentPath=C\:\\Pavithra\\Practical\\strutspractice\\.metadata\\.plugins\\com.genuitec.eclipse.easie.tomcat.myeclipse\\tomcat\\webapps\\UserRegistration
+myeclipseTomcatServer.UserRegistration.earProjectName=
+myeclipseTomcatServer.UserRegistration.shouldOverwrite=true
+myeclipseTomcatServer.UserRegistration.type=WebDeployment
+myeclipseTomcatServer.UserRegistration.deployIsOverProject=false
+myeclipseTomcatServer.UserRegistration.contextRoot=/UserRegistration
+myeclipseTomcatServer.UserRegistration.shouldBackup=false
+myeclipseTomcatServer.UserRegistration.isExploded=true
+eclipse.preferences.version=1
+myeclipseTomcatServer.UserRegistration.isUptoDate=true
+myeclipseTomcatServer.UserRegistration.isDeployed=true

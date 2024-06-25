@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
+	<info organisation="nu.validator.htmlparser"
+		module="htmlparser"
+		revision="1.4"
+		status="release"
+		publication="20120608002545"
+	>
+		<license name="The MIT License" url="http://www.opensource.org/licenses/mit-license.php" />
+		<license name="The (New) BSD License" url="http://www.opensource.org/licenses/bsd-license.php" />
+		<description homepage="http://about.validator.nu/htmlparser/">
+		The Validator.nu HTML Parser is an implementation of the HTML5 parsing algorithm in Java for applications. The parser is designed to work as a drop-in replacement for the XML parser in applications that already support XHTML 1.x content with an XML parser and use SAX, DOM or XOM to interface with the parser.
+		</description>
+		<m:properties__rpm.javadoc.dir>/usr/share/javadoc</m:properties__rpm.javadoc.dir>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__rpm.java.dir>/usr/share/java</m:properties__rpm.java.dir>
+		<m:maven.plugins>org.apache.maven.plugins__maven-compiler-plugin__null|null__maven-antrun-plugin__1.7|org.apache.maven.plugins__maven-surefire-plugin__null|org.apache.felix__maven-bundle-plugin__2.3.7|org.codehaus.mojo__rpm-maven-plugin__null</m:maven.plugins>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="htmlparser" type="bundle" ext="jar" conf="master"/>
+	</publications>
+	<dependencies>
+		<dependency org="com.ibm.icu" name="icu4j" rev="4.0.1" force="true" conf="optional->compile(*),master(*)"/>
+		<dependency org="xom" name="xom" rev="1.1" force="true" conf="optional->compile(*),master(*)"/>
+		<dependency org="net.sourceforge.jchardet" name="jchardet" rev="1.0" force="true" conf="optional->compile(*),master(*)"/>
+		<dependency org="com.sdicons.jsontools" name="jsontools-core" rev="1.4" force="true" conf="test->runtime(*),master(*)"/>
+	</dependencies>
+</ivy-module>

@@ -1,0 +1,5 @@
+package com.akhm.action;
+
+public class AddUserAction {
+
+}

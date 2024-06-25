@@ -1,0 +1,5 @@
+package com.akhm.service;
+
+public interface UserService {
+
+}

@@ -1,0 +1,6 @@
+<%@taglib prefix="html" uri="http://struts.apache.org/tags-html"%>
+<html:html>
+<head>
+	<title></title>
+</head>
+</html:html>

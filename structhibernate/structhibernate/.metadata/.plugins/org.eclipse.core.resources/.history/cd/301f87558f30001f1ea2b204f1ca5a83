@@ -1,0 +1,5 @@
+package com.akhm.util;
+
+public class HibernateUtil {
+
+}

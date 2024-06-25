@@ -1,0 +1,8 @@
+package com.akhm.action.form;
+
+
+import org.apache.struts.action.ActionForm;
+
+public class AddUserActionForm extends ActionForm{
+
+}

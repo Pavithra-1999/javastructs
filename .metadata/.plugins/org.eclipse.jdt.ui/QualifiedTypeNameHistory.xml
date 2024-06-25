@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.akhm.UserApplication"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="com.akhm.dao.model.UserTl"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.CallableStatement"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.akhm.utils.JdbcUtils"/>
+    <fullyQualifiedTypeName name="com.akhm.service.dto.UserDTO"/>
+    <fullyQualifiedTypeName name="com.akhm.utils.FactoryUtils"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+</qualifiedTypeNameHistroy>

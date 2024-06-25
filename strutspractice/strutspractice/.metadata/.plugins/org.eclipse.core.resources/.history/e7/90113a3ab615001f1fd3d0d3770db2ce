@@ -1,0 +1,28 @@
+<%@taglib prefix="html" uri="http://struts.apache.org/tags-html"%>
+<html:html>
+<head>
+	<title>Registarion</title>
+</head>
+<body>
+	<html:form>
+		<table>
+			<tr>
+				<th>
+					First Name
+				</th>
+				<td>
+					<html:text property="firstName" />
+				</td>
+			</tr>
+			<tr>
+				<th>
+					Last Name
+				</th>
+				<td>
+					<html:text property="lastName" />
+				</td>
+			</tr>
+		</table>
+	</html:form>
+</body>
+</html:html>

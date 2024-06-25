@@ -1,0 +1,7 @@
+package com.akhm.action;
+
+import org.apache.struts.action.Action;
+
+public class ShowAddUserAction extends Action{
+
+}

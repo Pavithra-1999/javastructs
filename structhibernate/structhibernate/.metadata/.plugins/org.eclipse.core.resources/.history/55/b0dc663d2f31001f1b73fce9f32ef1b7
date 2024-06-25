@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/showadduser.do" location="50,50" dimension="115,66" />
+  <StrutsActivity path="/WEB-INF/pages/adduser.jsp" location="350,50" dimension="183,51" />
+  <StrutsActivity path="/WEB-INF/pageses/adduser.jsp" location="650,50" dimension="194,51" />
+  <StrutsTransition id="/showadduser.do,sucess,/WEB-INF/pages/adduser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="165,83" />
+      <AbsolutePoint location="350,83" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/showadduser.do,sucess,/WEB-INF/pageses/adduser.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="107,50" />
+      <AbsolutePoint location="107,-25" />
+      <AbsolutePoint location="747,-25" />
+      <AbsolutePoint location="747,50" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

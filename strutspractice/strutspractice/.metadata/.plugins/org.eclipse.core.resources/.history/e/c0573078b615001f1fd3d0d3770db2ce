@@ -1,0 +1,13 @@
+<%@taglib prefix="html" uri="http://struts.apache.org/tags-html"%>
+<html:html>
+<head>
+	<title>Registarion</title>
+</head>
+<body>
+	<html:form>
+		<table>
+			
+		</table>
+	</html:form>
+</body>
+</html:html>

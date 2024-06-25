@@ -1,0 +1,13 @@
+package com.akhm.dao.impl;
+
+import com.akhm.dao.UserDAO;
+import com.akhm.dao.model.UserTl;
+
+public class UserDAOImpl implements UserDAO {
+
+	public Integer insertUser(UserTl userTl) {
+		
+		return null;
+	}
+
+}
